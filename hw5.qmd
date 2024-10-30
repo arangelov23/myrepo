@@ -10,6 +10,8 @@ library(tidyverse)
 gss_cat %>% 
   ggplot(aes(tvhours, partyid))+
   geom_col()
+
+3+3+3
 ```
 
 
