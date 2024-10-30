@@ -3,6 +3,16 @@ title: "hw5"
 author: "Will Arangelov"
 format: html
 ---
+```{r}
+library(tidyverse)
+```
+```{r}
+gss_cat %>% 
+  ggplot(aes(tvhours, partyid))+
+  geom_col()
+```
+
+
 
 ## Quarto
 
